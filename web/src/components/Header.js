@@ -3,45 +3,35 @@ import React, { Component } from 'react'
 class Header extends Component {
 	render() {
 		return (
-			<header className="lc-header">
-				<div className="super-inner df jc-sb ai-c">
-					<h1 className="dtc--m">
-						<a href="/legislative-compass/legislation-search">
-							Opportunity Intelligence
-						</a>
-					</h1>
-					<div className="dtc--m va-m tar--m whs-nw pt1 pt0--m">
-						<a
-							className="button--shuttlegray mr10"
-							href="/legislative-compass/legislation-search"
-						>
-							<b
-								className="icon icon-search"
-								aria-hidden="true"
-							/>{' '}
-							<span className="d-n di--s">Search</span>
-						</a>
-						<a
-							className="button--shuttlegray mr10"
-							href="/legislative-compass/roll-call-vote-search"
-						>
-							<b
-								className="icon icon-person"
-								aria-hidden="true"
-							/>{' '}
-							<span className="d-n di--xs">Profile</span>
-						</a>
-						<a
-							className="button--shuttlegray"
-							href="/legislative-compass/preferences"
-						>
-							<b
-								className="icon icon-gear"
-								aria-hidden="true"
-							/>{' '}
-							<span className="d-n di--xs"> Preferences</span>
-						</a>
-					</div>
+			<header className="sub-header on-dark bgc--vulcan-gray25">
+				<div className="sub-header__pos1">
+					<h2 className="sub-header__title">
+						<a href="#">Opportunity Intelligence</a>
+					</h2>
+				</div>
+				<div className="sub-header__pos2">
+					<ul className="sub-header__list sub-header__list--buttons">
+						<li className="sub-header__item">
+							<a className="button--standard button--denim-blue">
+								<b className="fa fa-search" /> Search
+							</a>
+						</li>
+						<li className="sub-header__item">
+							<a className="button--standard button--denim-blue">
+								<b className="fa fa-user" /> Profile
+							</a>
+						</li>
+						<li className="sub-header__item">
+							<a className="button--standard button--denim-blue">
+								<b className="fa fa-bell" /> Alerts
+							</a>
+						</li>
+						<li className="sub-header__item">
+							<a className="button--standard button--denim-blue">
+								<b className="fa fa-cog" /> Preferences
+							</a>
+						</li>
+					</ul>
 				</div>
 			</header>
 		)
