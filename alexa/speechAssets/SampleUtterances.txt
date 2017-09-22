@@ -1,0 +1,7 @@
+OpIntelIntent what my OpIntel updates are
+OpIntelIntent what are my latest OpIntel updates
+OpIntelIntent get me recent OpIntel notifications
+OpIntelIntent tell me more about my contract opportunities
+
+FavoriteOpportunityIntent favorite that opportunity
+FavoriteOpportunityIntent save that opportunity
