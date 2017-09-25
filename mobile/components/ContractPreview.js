@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Image, View, Text, TouchableOpacity, StyleSheet } from 'react-native'
+import { Image, View, Text, StyleSheet } from 'react-native'
 import { Ionicons } from '@expo/vector-icons'
 
 class ContractPreview extends Component {
@@ -10,6 +10,7 @@ class ContractPreview extends Component {
 			daysAgo,
 			department,
 			iconName,
+			iconColor,
 			logo,
 			navigate,
 			title,
@@ -20,9 +21,7 @@ class ContractPreview extends Component {
 			<View style={styles.container}>
 				<View>
 					<Image source={{ uri: logo }} />
-					<TouchableOpacity onPress={() => navigate('Contracts')}>
-						<Text style={styles.title}>{title}</Text>
-					</TouchableOpacity>
+					<Text style={styles.title}>{title}</Text>
 					<Text style={styles.department}>{department}</Text>
 					<Text style={styles.value}>
 						Contract Type: {contractType}
@@ -40,8 +39,7 @@ class ContractPreview extends Component {
 						style={{
 							marginBottom: -3,
 							fontWeight: 'bold',
-							color:
-								iconName === 'md-checkmark' ? 'green' : '#222'
+							color: iconColor ? iconColor : '#222'
 						}}
 						color={'#222'}
 					/>

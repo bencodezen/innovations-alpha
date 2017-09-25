@@ -5,6 +5,7 @@ import {
 	ScrollView,
 	StyleSheet,
 	Text,
+	TextInput,
 	TouchableOpacity,
 	View
 } from 'react-native'
@@ -27,7 +28,8 @@ export default class HomeScreen extends React.Component {
 					style={styles.container}
 					contentContainerStyle={styles.contentContainer}
 				>
-					<Text style={styles.h3}>Recommended Opportunities</Text>
+					<Text style={styles.h3}>Search</Text>
+					<TextInput style={styles.searchBar} value="technology" />
 					<ContractPreview
 						awardDate="09/30/2017"
 						daysAgo="4"
@@ -116,7 +118,8 @@ const styles = StyleSheet.create({
 	},
 	h3: {
 		fontSize: 20,
-		fontWeight: 'bold'
+		fontWeight: 'bold',
+		marginBottom: 10
 	},
 	developmentModeText: {
 		marginBottom: 20,
@@ -135,7 +138,11 @@ const styles = StyleSheet.create({
 		marginTop: 10,
 		marginBottom: 20
 	},
-
+	searchBar: {
+		borderWidth: 1,
+		borderColor: '#ccc',
+		padding: 8
+	},
 	getStartedContainer: {
 		alignItems: 'center',
 		marginHorizontal: 50

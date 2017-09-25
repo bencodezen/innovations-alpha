@@ -38,8 +38,8 @@ export default class HomeScreen extends React.Component {
 						daysAgo="4"
 						department="Department of Health and Human Services"
 						iconName="md-checkmark"
+						iconColor="green"
 						logo="https://www.hhs.gov/sites/default/files/hhs-emblem-black.gif"
-						navigate={navigate}
 						rating="90%"
 						title="Community Development Software Solution"
 						value="$1,500,000"
