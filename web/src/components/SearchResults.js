@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class SearchResults extends Component {
 	render() {
 		return (
-			<div id="JobActivityWrapper">
+			<div className="jobs-box" id="JobActivityWrapper">
 				<div data-reactroot="" className="module">
 					<div className="simpleTabs">
 						<header>

@@ -6,18 +6,8 @@ class ProNews extends Component {
 	render() {
 		return (
 			<div className="content-group widget caste-exclusive">
-				<header className="widget-header">
-					<h2>
-						<a
-							href="/"
-							target="_top"
-							className="js-tealium-tracking"
-						>
-							POLITICO PRO NEWS
-						</a>
-					</h2>
-				</header>
-				<section className="jobs-box jobs-box--full-width no-shadow">
+				<h3 className="fz6">POLITICO Pro News</h3>
+				<section className="jobs-box jobs-box--full-width">
 					<Article
 						date="Sep 13, 2017 - 10:04 AM"
 						title="Congress passes bill to increase agriculture spending by $100B"

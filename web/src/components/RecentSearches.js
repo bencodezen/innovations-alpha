@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class RecentSearches extends Component {
 	render() {
 		return (
-			<div>
+			<div className="jobs-box">
 				<div className="recent-search-tags loaded">
 					<span>
 						<a href="/Job/jobs.htm?sc.keyword=senior ui engineer&amp;locT=C&amp;locId=1138213&amp;locKeyword=Washington, DC">

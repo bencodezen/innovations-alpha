@@ -4,18 +4,7 @@ const Calendar = () => {
 	return (
 		<aside className="content-group">
 			<div className="widget caste-exclusive">
-				<header className="widget-header">
-					<h2>
-						<a
-							href="https://www.politicopro.com/calendar"
-							target="_top"
-							data-tracking="mpos=right-rail&amp;mid=Unknown&amp;lindex=Unknown&amp;lcol=Unknown"
-							className="js-tealium-tracking"
-						>
-							POLITICO Pro Calendar
-						</a>
-					</h2>
-				</header>
+				<h3 className="fz6 mt32">POLITICO Pro Calendar</h3>
 				<div className="widget-content">
 					<ol className="calendar">
 						<li className="calendar__day">

@@ -13,9 +13,9 @@
 .jobs-box {
 	background-color: #fff;
 	background-clip: padding-box;
-	border-radius: 2px;
-	padding: 12px;
-	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 3px rgba(0, 0, 0, 0.2);
+	padding: 12px 24px;
+	border: 1px solid #e8e8e8;
+	/* box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.2); */
 }
 
 .jobs-box.no-shadow {
