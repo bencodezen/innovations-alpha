@@ -5,7 +5,7 @@ import '../styles/pronews.css'
 class ProNews extends Component {
 	render() {
 		return (
-			<div className="widget caste-exclusive">
+			<div className="content-group widget caste-exclusive">
 				<header className="widget-header">
 					<h2>
 						<a

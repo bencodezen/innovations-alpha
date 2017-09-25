@@ -3,6 +3,7 @@ import RecentResults from './RecentSearches'
 import SearchResults from './SearchResults'
 import Partnerships from './Partnerships'
 import ProNews from './ProNews'
+import Calendar from './Calendar'
 
 class Main extends Component {
 	render() {
@@ -21,6 +22,7 @@ class Main extends Component {
 							</div>
 							<div className="content-groupset pos-beta">
 								<ProNews />
+								<Calendar />
 							</div>
 						</div>
 					</div>
