@@ -6,6 +6,8 @@ class ContractPreview extends Component {
 			awardDate,
 			daysAgo,
 			department,
+			iconColor,
+			iconName,
 			logo,
 			rating,
 			title,
@@ -41,7 +43,14 @@ class ContractPreview extends Component {
 						</div>
 						<div className="alignRt">
 							<span className="save-job-button  nowrap padBotSm">
-								<i className="fa fa-plus" />
+								<i
+									className={
+										iconName ? iconName : 'fa fa-plus'
+									}
+									style={{
+										color: iconColor ? iconColor : '#222'
+									}}
+								/>
 							</span>
 						</div>
 					</div>

@@ -52,6 +52,8 @@ class SearchResults extends Component {
 											department="Department of Health and Human Services"
 											logo="https://www.hhs.gov/sites/default/files/hhs-emblem-black.gif"
 											rating="90%"
+											iconName="fa fa-check"
+											iconColor="green"
 											title="Community Development Software Solution"
 											value="$1,500,000"
 										/>
