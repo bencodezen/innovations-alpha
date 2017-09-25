@@ -2,7 +2,15 @@ import React, { Component } from 'react'
 
 class ContractPreview extends Component {
 	render() {
-		const { awardDate, department, logo, rating, title, value } = this.props
+		const {
+			awardDate,
+			daysAgo,
+			department,
+			logo,
+			rating,
+			title,
+			value
+		} = this.props
 
 		return (
 			<li className="jl" data-id="2018977840">
@@ -50,7 +58,9 @@ class ContractPreview extends Component {
 						<div>Est. Award Date: {awardDate}</div>
 						<div>
 							<span className="hideHH nowrap">
-								<span className="minor">7 days ago</span>
+								<span className="minor">
+									{daysAgo} days ago
+								</span>
 							</span>
 						</div>
 					</div>

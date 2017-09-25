@@ -101,29 +101,29 @@ class Partnerships extends Component {
 					<ul className="peek-carousel__slides">
 						<Partner
 							company="Leidos"
-							contract="Service Plan for IT Infrastructure"
-							location="Bethesda, MD"
+							contract="AWS Cloud Solutions"
+							location="Reston, VA"
 							logo="https://media.glassdoor.com/sqll/730545/leidos-squarelogo-1420581293842.png"
 							role="Subcontractor"
 						/>
 						<Partner
 							company="Lockheed Martin"
-							contract="Service Plan for IT Infrastructure"
+							contract="IT Helpdesk Support"
 							location="Bethesda, MD"
 							logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQydOnyF-ae-med0EqVSE0UN5fn2c-wo3bt9Yoldz1GXdrxKzJ-"
 							role="Subcontractor"
 						/>
 						<Partner
 							company="Raytheon"
-							contract="Service Plan for IT Infrastructure"
-							location="Bethesda, MD"
+							contract="Web Applications"
+							location="Washington, DC"
 							logo="https://storage.googleapis.com/opswat-marketing/www.opswat.com/images/_logos/customers/logo_raytheon.png"
 							role="Subcontractor"
 						/>
 						<Partner
 							company="Northrop Grumman"
-							contract="Service Plan for IT Infrastructure"
-							location="Bethesda, MD"
+							contract="User Experience Research"
+							location="Arlington, VA"
 							logo="https://www.shc.psu.edu/img/admissions/logos/company/northrop_grumman.gif"
 							role="Subcontractor"
 						/>

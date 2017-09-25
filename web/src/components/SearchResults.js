@@ -48,6 +48,7 @@ class SearchResults extends Component {
 									<ul className="jlGrid">
 										<ContractPreview
 											awardDate="09/30/2017"
+											daysAgo="4"
 											department="Department of Health and Human Services"
 											logo="https://www.hhs.gov/sites/default/files/hhs-emblem-black.gif"
 											rating="90%"
@@ -56,6 +57,7 @@ class SearchResults extends Component {
 										/>
 										<ContractPreview
 											awardDate="09/30/2017"
+											daysAgo="12"
 											department="National Cancer Institute"
 											logo="https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/0001/0943/brand.gif?itok=H7JqnZzc"
 											rating="87%"
@@ -64,6 +66,7 @@ class SearchResults extends Component {
 										/>
 										<ContractPreview
 											awardDate="09/30/2017"
+											daysAgo="3"
 											department="Department of Labor"
 											logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Seal_of_the_United_States_Department_of_Labor.svg/1200px-Seal_of_the_United_States_Department_of_Labor.svg.png"
 											rating="84%"
@@ -72,6 +75,7 @@ class SearchResults extends Component {
 										/>
 										<ContractPreview
 											awardDate="09/30/2017"
+											daysAgo="7"
 											department="Department of Energy"
 											logo="https://upload.wikimedia.org/wikipedia/commons/e/e2/Seal_of_the_United_States_Department_of_Energy.svg"
 											rating="81%"
