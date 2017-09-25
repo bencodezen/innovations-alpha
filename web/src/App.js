@@ -4,6 +4,8 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import Subheader from './components/Subheader'
 import Main from './components/Main'
+import SearchBar from './components/SearchBar'
+
 import './App.css'
 import './styles/lc.css'
 import './styles/style-pro.css'
@@ -17,6 +19,7 @@ class App extends Component {
 				<GlobalHeader />
 				<Header />
 				<Subheader />
+				<SearchBar />
 				<Main />
 				<Footer />
 			</div>
