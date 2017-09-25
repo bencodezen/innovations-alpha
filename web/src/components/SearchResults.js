@@ -81,7 +81,7 @@ class SearchResults extends Component {
 													</div>
 													<div className="alignRt">
 														<span className="save-job-button  nowrap padBotSm">
-															<i className="heart" />
+															<i className="fa fa-plus" />
 														</span>
 													</div>
 												</div>
@@ -144,7 +144,7 @@ class SearchResults extends Component {
 													</div>
 													<div className="alignRt">
 														<span className="save-job-button  nowrap padBotSm">
-															<i className="heart" />
+															<i className="fa fa-plus" />
 														</span>
 													</div>
 												</div>
