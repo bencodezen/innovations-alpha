@@ -25,10 +25,10 @@ Ben describes how Thumb Up on partnership can affect what Contracts and Partners
     [] Contract detail screen showing Sally's interest in contract
         [x] App Header
         [x] {Home} Opportunities List
-        [] {Contracts} List of contracts currently under way
-        [] {Search} Basic search page
-        [] {Favorites} Saved list of opportunities
-        [] {Settings} Preferences 
+        [x] {Contracts} List of contracts currently under way
+        [x] {Search} Basic search page
+        [x] {Favorites} Saved list of opportunities
+        [x] {Settings} Preferences 
 [] Ben talks about notifications
     [] Demos Alexa's capabilities
-        [] Refine Alexa's response
+        [x] Refine Alexa's response
