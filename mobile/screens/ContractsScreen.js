@@ -11,6 +11,7 @@ import {
 import { WebBrowser } from 'expo'
 import Header from '../components/Header'
 import ContractPreview from '../components/ContractPreview'
+import Subcontractor from '../components/Subcontractor'
 
 import { MonoText } from '../components/StyledText'
 
@@ -29,9 +30,11 @@ export default class ContractsScreen extends React.Component {
 					style={styles.container}
 					contentContainerStyle={styles.contentContainer}
 				>
-					<Text style={styles.h3}>
-						Community Development Software Solution
-					</Text>
+					<View style={styles.h3Container}>
+						<Text style={styles.h3}>
+							Community Development Software Solution
+						</Text>
+					</View>
 					<Text style={styles.department}>
 						Department of Health and Human Services
 					</Text>
@@ -49,13 +52,23 @@ export default class ContractsScreen extends React.Component {
 						(PS), Plans, Policies and Operations (PP&O),
 						Headquarters, U.S. Marine Corps
 					</Text>
-					<Text style={styles.h3}>Recommended Subcontractors</Text>
-					<Text>Sally Summer</Text>
-					<Text>202-555-5930</Text>
-					<Text>Sally Summer</Text>
-					<Text>202-555-5930</Text>
-					<Text>Sally Summer</Text>
-					<Text>202-555-5930</Text>
+					<View style={styles.h3Container}>
+						<Text style={styles.h3}>
+							Recommended Subcontractors
+						</Text>
+					</View>
+					<Subcontractor
+						company="Small Business Sally"
+						email="info@smallbusinesssally.com"
+					/>
+					<Subcontractor
+						company="Medium Business Molly"
+						email="info@mediumbusinessmolly.com"
+					/>
+					<Subcontractor
+						company="Tiny Business Tim"
+						email="info@tinybusinesstim.com"
+					/>
 				</ScrollView>
 			</View>
 		)
@@ -109,6 +122,9 @@ const styles = StyleSheet.create({
 	h3: {
 		fontSize: 20,
 		fontWeight: 'bold'
+	},
+	h3Container: {
+		marginBottom: 5
 	},
 	developmentModeText: {
 		marginBottom: 20,
