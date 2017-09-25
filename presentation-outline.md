@@ -31,3 +31,4 @@ Ben describes how Thumb Up on partnership can affect what Contracts and Partners
         [] {Settings} Preferences 
 [] Ben talks about notifications
     [] Demos Alexa's capabilities
+        [] Refine Alexa's response
