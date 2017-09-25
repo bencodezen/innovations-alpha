@@ -52,6 +52,14 @@ class Header extends Component {
 											</span>
 										</a>
 									</li>
+									<li className="actions-lineup__item hide-at-mobile">
+										<a href="/">
+											<b className="fa fa-bell" />
+											<span className="icon-text">
+												Profile
+											</span>
+										</a>
+									</li>
 									<li className="actions-lineup__item">
 										<div className="slide-search">
 											<a

@@ -12,13 +12,13 @@ class Header extends Component {
 				<div className="sub-header__pos2">
 					<ul className="sub-header__list sub-header__list--buttons">
 						<li className="sub-header__item">
-							<a className="button--standard button--denim-blue">
-								<b className="fa fa-search" /> Search
+							<a className="button--standard">
+								<b className="fa fa-home" /> Dashboard
 							</a>
 						</li>
 						<li className="sub-header__item">
 							<a className="button--standard button--denim-blue">
-								<b className="fa fa-bell" /> Alerts
+								<b className="fa fa-search" /> Search
 							</a>
 						</li>
 						<li className="sub-header__item">
