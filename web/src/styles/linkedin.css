@@ -68,11 +68,6 @@
 }
 
 .jobs-box__title {
-	font-family: Source Sans Pro, Helvetica, Arial, sans-serif,
-		Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic,
-		Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai,
-		Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system,
-		'.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
 	line-height: 24px;
 	font-weight: 400;
 	color: rgba(0, 0, 0, 0.85);
@@ -96,11 +91,6 @@
 }
 
 .jobs-box__sub-title {
-	font-family: Source Sans Pro, Helvetica, Arial, sans-serif,
-		Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic,
-		Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai,
-		Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system,
-		'.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
 	line-height: 20px;
 	font-weight: 600;
 	color: rgba(0, 0, 0, 0.7);
@@ -125,11 +115,6 @@
 .jobs-box__html-content li,
 .jobs-box__html-content p,
 .jobs-box__list-item {
-	font-family: Source Sans Pro, Helvetica, Arial, sans-serif,
-		Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic,
-		Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai,
-		Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system,
-		'.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
 	line-height: 20px;
 	color: rgba(0, 0, 0, 0.7);
 }
@@ -205,6 +190,7 @@
 
 .peek-carousel__card-item {
 	margin-right: 12px;
+	max-width: 210px;
 }
 
 .peek-carousel__card-item:first-child {
@@ -231,7 +217,7 @@
 
 .peek-carousel-controls__link {
 	color: rgba(0, 0, 0, 0.55);
-	font-size: 1.5rem;
+	font-size: 15px;
 	line-height: 2.4rem;
 	transition: font-size 0.5s ease;
 	display: -webkit-inline-flex;
@@ -363,22 +349,12 @@
 }
 
 .job-card__sponsored-tag {
-	font-family: Source Sans Pro, Helvetica, Arial, sans-serif,
-		Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic,
-		Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai,
-		Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system,
-		'.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
 	font-weight: 400;
 	color: rgba(0, 0, 0, 0.55);
 }
 
 .job-card__title,
 .jobs-search-results__list .job-card__title {
-	font-family: Source Sans Pro, Helvetica, Arial, sans-serif,
-		Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic,
-		Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai,
-		Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system,
-		'.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
 	font-weight: 600;
 	color: rgba(0, 0, 0, 0.85);
 }
@@ -399,11 +375,6 @@
 
 .job-card__description-snippet,
 .job-card__source-domain {
-	font-family: Source Sans Pro, Helvetica, Arial, sans-serif,
-		Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic,
-		Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai,
-		Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system,
-		'.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
 	line-height: 16px;
 	font-weight: 400;
 	font-size: 13px;
@@ -533,11 +504,6 @@
 }
 
 .job-card__company-name {
-	font-family: Source Sans Pro, Helvetica, Arial, sans-serif,
-		Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic,
-		Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai,
-		Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system,
-		'.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
 	line-height: 20px;
 	font-weight: 400;
 	color: rgba(0, 0, 0, 0.85);
@@ -546,18 +512,21 @@
 
 .job-card__listed-status,
 .job-card__location {
-	font-family: Source Sans Pro, Helvetica, Arial, sans-serif,
-		Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic,
-		Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai,
-		Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system,
-		'.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
-	line-height: 16px;
+	line-height: 1.5;
 	font-weight: 400;
 }
 
 .job-card__location {
 	color: rgba(0, 0, 0, 0.55);
 	font-size: 13px;
+}
+
+.job-card__role {
+	font-style: italic;
+	font-weight: normal;
+	margin-top: 6px;
+	color: #666;
+	font-size: 0.9rem;
 }
 
 .job-card__job-flavors-container {
@@ -580,6 +549,11 @@
 	-webkit-align-items: center;
 	-ms-flex-align: center;
 	align-items: center;
+	justify-content: space-between;
+}
+
+.job-card__footer .fa-thumbs-o-down {
+	padding-right: 10px;
 }
 
 .job-card__footer::before {
@@ -621,11 +595,7 @@
 .job-card__expiration-status,
 .job-card__new-tag {
 	font-weight: 600;
-	font-family: Source Sans Pro, Helvetica, Arial, sans-serif,
-		Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic,
-		Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai,
-		Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system,
-		'.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
+
 	line-height: 16px;
 	font-size: 13px;
 }
@@ -665,11 +635,6 @@
 }
 
 .job-card__easy-apply-text {
-	font-family: Source Sans Pro, Helvetica, Arial, sans-serif,
-		Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic,
-		Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai,
-		Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system,
-		'.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
 	line-height: 16px;
 	font-weight: 400;
 	color: rgba(0, 0, 0, 0.55);
@@ -689,4 +654,8 @@
 	-webkit-flex: 1 1 auto;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
+}
+
+.artdeco-icon--left {
+	fill: #ccc;
 }

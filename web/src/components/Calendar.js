@@ -4,7 +4,7 @@ const Calendar = () => {
 	return (
 		<aside className="content-group">
 			<div className="widget caste-exclusive">
-				<h3 className="fz6 mt32">POLITICO Pro Calendar</h3>
+				<h3 className="fz6 mt32 mb20">POLITICO Pro Calendar</h3>
 				<div className="widget-content">
 					<ol className="calendar">
 						<li className="calendar__day">
