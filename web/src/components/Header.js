@@ -6,7 +6,7 @@ class Header extends Component {
 			<header className="sub-header on-dark bgc--vulcan-gray25">
 				<div className="sub-header__pos1">
 					<h2 className="sub-header__title">
-						<a href="#">Opportunity Intelligence</a>
+						<a href="/">Opportunity Intelligence</a>
 					</h2>
 				</div>
 				<div className="sub-header__pos2">

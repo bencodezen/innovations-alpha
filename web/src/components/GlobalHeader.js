@@ -10,7 +10,7 @@ class Header extends Component {
 				<div className="header__row header__main">
 					<div className="header__branding">
 						<h1>
-							<a href="#">
+							<a href="/">
 								<b
 									aria-hidden="true"
 									className="icon icon-politico is-emphasized"
@@ -37,7 +37,7 @@ class Header extends Component {
 							<div className="actions-lineup">
 								<ul className="actions-lineup__list">
 									<li className="actions-lineup__item hide-at-mobile icon-flip">
-										<a href="#">
+										<a href="/">
 											<b className="icon icon--user" />
 											<span className="icon-text">
 												Hi Sally
@@ -45,7 +45,7 @@ class Header extends Component {
 										</a>
 									</li>
 									<li className="actions-lineup__item hide-at-mobile">
-										<a href="#">
+										<a href="/">
 											<b className="fa fa-user" />
 											<span className="icon-text">
 												Profile
@@ -57,7 +57,7 @@ class Header extends Component {
 											<a
 												className="slide-search__open"
 												id="search-open"
-												href="#"
+												href="/"
 											>
 												<b className="fa fa-search" />
 												<span className="icon-text">
@@ -70,7 +70,7 @@ class Header extends Component {
 											>
 												<form
 													className="slide-search__form"
-													action="#"
+													action="/"
 													method="get"
 												>
 													<input
