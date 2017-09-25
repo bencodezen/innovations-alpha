@@ -38,19 +38,21 @@ export default class ContractsScreen extends React.Component {
 					<Text style={styles.department}>
 						Department of Health and Human Services
 					</Text>
+					<Text style={styles.value}>
+						Contract Type: Fixed Price Point
+					</Text>
 					<Text style={styles.value}>Est. Value: $1,500,000</Text>
 					<Text style={styles.awardDate}>
 						Est. Award Date: 09/30/2017
 					</Text>
 					<Text style={styles.daysAgo}>4 days ago</Text>
-					<Text>
-						The United States Marine Corps (USMC) has a continuing
-						requirement for Program Management support, training
-						services, Human Resources Services and non-guard
-						security support services for a centrally managed law
-						enforcement program conducted from the Security Division
-						(PS), Plans, Policies and Operations (PP&O),
-						Headquarters, U.S. Marine Corps
+					<Text style={styles.description}>
+						The Department of Health and Human Services (DHHS) has a
+						continuing requirement for Program Management support,
+						training services, development and software support
+						services for a centrally managed health program
+						conducted from the Wellness Division (WS), Plans,
+						Policies and Operations (PP&O)
 					</Text>
 					<View style={styles.h3Container}>
 						<Text style={styles.h3}>
@@ -73,51 +75,23 @@ export default class ContractsScreen extends React.Component {
 			</View>
 		)
 	}
-
-	_maybeRenderDevelopmentModeWarning() {
-		if (__DEV__) {
-			const learnMoreButton = (
-				<Text
-					onPress={this._handleLearnMorePress}
-					style={styles.helpLinkText}
-				>
-					Learn more
-				</Text>
-			)
-
-			return (
-				<Text style={styles.developmentModeText}>
-					Development mode is enabled, your app will be slower but you
-					can use useful development tools. {learnMoreButton}
-				</Text>
-			)
-		} else {
-			return (
-				<Text style={styles.developmentModeText}>
-					You are not in development mode, your app will run at full
-					speed.
-				</Text>
-			)
-		}
-	}
-
-	_handleLearnMorePress = () => {
-		WebBrowser.openBrowserAsync(
-			'https://docs.expo.io/versions/latest/guides/development-mode'
-		)
-	}
-
-	_handleHelpPress = () => {
-		WebBrowser.openBrowserAsync(
-			'https://docs.expo.io/versions/latest/guides/up-and-running.html#can-t-see-your-changes'
-		)
-	}
 }
 
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
 		backgroundColor: '#fff'
+	},
+	daysAgo: {
+		fontSize: 12,
+		marginTop: 10,
+		marginBottom: 16
+	},
+	department: {
+		marginBottom: 16
+	},
+	description: {
+		marginBottom: 20
 	},
 	h3: {
 		fontSize: 20,
