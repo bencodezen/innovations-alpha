@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import RecentResults from './RecentSearches'
 import SearchResults from './SearchResults'
+import Partnerships from './Partnerships'
 
 class Main extends Component {
 	render() {
@@ -12,6 +13,8 @@ class Main extends Component {
 						<SearchResults />
 						<h3 className="fz7">Recent Searches</h3>
 						<RecentResults />
+						<h3 className="fz7">Partnerships</h3>
+						<Partnerships />
 					</div>
 				</div>
 			</main>

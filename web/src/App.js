@@ -8,6 +8,7 @@ import './App.css'
 import './styles/lc.css'
 import './styles/style-pro.css'
 import './styles/glassdoor.css'
+import './styles/linkedin.css'
 
 class App extends Component {
 	render() {

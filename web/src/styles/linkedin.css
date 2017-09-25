@@ -1,0 +1,689 @@
+.justify-space-between {
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.display-flex {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.jobs-box {
+	background-color: #fff;
+	background-clip: padding-box;
+	border-radius: 2px;
+	margin-bottom: 8px;
+	padding: 12px;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 3px rgba(0, 0, 0, 0.2);
+	margin-bottom: 16px;
+}
+
+.jobs-box--fadein {
+	-webkit-animation: fade-in 834ms 1;
+	animation: fade-in 834ms 1;
+}
+
+.jobs-box--inset {
+	padding: 12px 24px;
+}
+
+.jobs-box--full-width {
+	padding: 0;
+}
+
+.jobs-box--stretch {
+	width: 100%;
+}
+
+.jobs-box--with-cta .cta-wrap,
+.jobs-box--with-cta-large .cta-wrap {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.jobs-box--with-cta-large .cta-wrap a,
+.jobs-box--with-cta-large .cta-wrap button {
+	margin: 8px 0;
+}
+
+.jobs-box--generic-occludable-area-large {
+	min-height: 500px;
+}
+
+.jobs-box--generic-occludable-area-small {
+	min-height: 250px;
+}
+
+.jobs-box__title {
+	font-family: Source Sans Pro, Helvetica, Arial, sans-serif,
+		Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic,
+		Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai,
+		Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system,
+		'.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
+	line-height: 24px;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.85);
+	font-size: 17px;
+	margin-bottom: 8px;
+}
+
+.jobs-box__body,
+.jobs-box__html-content li,
+.jobs-box__html-content p {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.jobs-box__title--no-bottom {
+	margin-bottom: 0;
+}
+
+.jobs-box__title--dense {
+	line-height: 2rem;
+}
+
+.jobs-box__sub-title {
+	font-family: Source Sans Pro, Helvetica, Arial, sans-serif,
+		Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic,
+		Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai,
+		Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system,
+		'.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
+	line-height: 20px;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 15px;
+}
+
+.jobs-box__sub-title--light {
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.55);
+}
+
+.jobs-box__sub-title--link:hover {
+	color: rgba(0, 0, 0, 0.7);
+	text-decoration: none;
+}
+
+.jobs-box__sub-title--link:visited {
+	color: currentColor;
+}
+
+.jobs-box__body,
+.jobs-box__html-content li,
+.jobs-box__html-content p,
+.jobs-box__list-item {
+	font-family: Source Sans Pro, Helvetica, Arial, sans-serif,
+		Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic,
+		Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai,
+		Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system,
+		'.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.jobs-box__body {
+	margin-bottom: 12px;
+}
+
+.jobs-box__body--no-bottom {
+	margin-bottom: 0;
+}
+
+.jobs-box__html-content ol,
+.jobs-box__html-content p,
+.jobs-box__html-content ul,
+.jobs-box__list {
+	margin-bottom: 12px;
+}
+
+.jobs-box__list-item {
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.checked-pill,
+.pills .add-textbox .pill-name,
+.pills .typeahead-disabled,
+.unchecked-pill .pill-name {
+	font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	box-sizing: border-box;
+}
+
+.jobs-box__edit-icon,
+.jobs-box__edit-icon:visited {
+	color: rgba(0, 0, 0, 0.55);
+}
+
+.jobs-box__content-wrap {
+	padding: 12px;
+}
+
+.jobs-box__content-wrap--custom {
+	padding-top: 8px;
+}
+
+.jobs-box__content-sides {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.jobs-box__content-wrap--no-bottom {
+	padding-bottom: 0;
+}
+
+.jobs-box__edit-icon {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40px;
+	height: 40px;
+	padding: 12px 0 0 6px;
+}
+
+.peek-carousel__slides {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	list-style-type: none;
+	position: relative;
+}
+
+.peek-carousel__card-item {
+	margin-right: 12px;
+}
+
+.peek-carousel__card-item:first-child {
+	margin-left: 24px;
+}
+
+.peek-carousel__card-item:last-child {
+	margin-right: 24px;
+}
+
+.peek-carousel {
+	overflow: hidden;
+}
+
+.peek-carousel__slides {
+	transition: -webkit-transform 0.5s ease;
+	transition: transform 0.5s ease;
+	transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.peek-carousel__card-item:hover {
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.peek-carousel-controls__link {
+	color: rgba(0, 0, 0, 0.55);
+	font-size: 1.5rem;
+	line-height: 2.4rem;
+	transition: font-size 0.5s ease;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.peek-carousel-controls__link:visited {
+	color: rgba(0, 0, 0, 0.55);
+}
+
+.peek-carousel-controls__link--grow {
+	font-size: 1.7rem;
+}
+
+.peek-carousel-controls__button {
+	color: rgba(0, 0, 0, 0.55);
+	transition: color 0.5s ease;
+}
+
+.peek-carousel-controls__button:first-of-type {
+	margin-right: 4px;
+}
+
+.peek-carousel-controls__button[disabled] {
+	color: rgba(0, 0, 0, 0.15);
+}
+.svg-icon-wrap {
+	display: inline-block;
+}
+
+.job-card__sponsored-tag,
+.job-card__title {
+	line-height: 20px;
+	font-size: 15px;
+}
+
+.job-card--tile {
+	background: #fff;
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+	transition: box-shadow 83ms;
+	padding: 16px;
+	margin: 12px;
+}
+
+.job-card--tile.peek-carousel__card-item {
+	margin-left: 0;
+}
+
+.job-card--tile.peek-carousel__card-item:first-child {
+	margin-left: 24px;
+}
+
+.job-card--tile.peek-carousel__card-item:last-child {
+	margin-right: 24px;
+}
+
+.job-card__header {
+	padding: 8px 8px 8px 16px;
+}
+
+.job-card__body {
+	padding: 16px;
+}
+
+.job-card--is-removing {
+	transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	-webkit-transform: translateZ(0) scale(0.01, 0.01);
+	transform: translateZ(0) scale(0.01, 0.01);
+	opacity: 0;
+}
+
+.job-card--carousel-item.job-card--tile {
+	margin-bottom: 24px;
+}
+
+.job-card--referrals .job-card__link-wrapper,
+.job-card--tile .job-card__link-wrapper {
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.jobs-activity__list-item .job-card__link-wrapper {
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+}
+
+.job-card__image-and-sponsored-container {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.job-card--column .job-card__image-and-sponsored-container {
+	padding: 12px 8px 0 0;
+	-webkit-flex: 0 0 auto;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto;
+}
+
+.job-card--referrals .job-card__logo-wrapper,
+.job-card--tile .job-card__logo-wrapper {
+	margin: -4px 0 4px -4px;
+	width: 72px;
+	height: 72px;
+	border: 4px solid transparent;
+	border-radius: 6px;
+}
+
+.job-card--column .job-card__logo-wrapper {
+	margin: 16px 8px 0 -4px;
+	max-width: 56px;
+	height: 56px;
+	-webkit-flex: 1 0 56px;
+	-ms-flex: 1 0 56px;
+	flex: 1 0 56px;
+}
+
+.job-card__sponsored-tag {
+	font-family: Source Sans Pro, Helvetica, Arial, sans-serif,
+		Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic,
+		Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai,
+		Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system,
+		'.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.55);
+}
+
+.job-card__title,
+.jobs-search-results__list .job-card__title {
+	font-family: Source Sans Pro, Helvetica, Arial, sans-serif,
+		Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic,
+		Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai,
+		Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system,
+		'.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 0.85);
+}
+
+.job-card--column .job-card__content-wrapper {
+	padding: 12px 64px 12px 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.job-card:first-child .job-card__content-wrapper {
+	border: none;
+}
+
+.jobs-search-results__list .job-card__title {
+	line-height: 24px;
+	font-size: 17px;
+}
+
+.job-card__description-snippet,
+.job-card__source-domain {
+	font-family: Source Sans Pro, Helvetica, Arial, sans-serif,
+		Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic,
+		Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai,
+		Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system,
+		'.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
+	line-height: 16px;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.job-card__description-snippet {
+	color: rgba(0, 0, 0, 0.7);
+	margin-top: 4px;
+}
+
+.job-card__source-domain {
+	color: rgba(0, 0, 0, 0.55);
+}
+
+.job-card--referrals .job-card__job-flavors-container,
+.job-card--tile .job-card__job-flavors-container {
+	-webkit-flex: 1 0 auto;
+	-ms-flex: 1 0 auto;
+	flex: 1 0 auto;
+	-webkit-align-items: flex-end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+}
+
+.job-card--referrals .job-card__footer,
+.job-card--tile .job-card__footer {
+	margin-top: auto;
+}
+
+.job-card__dismiss-button {
+	display: none;
+	height: 1.6rem;
+	margin-left: auto;
+}
+
+.job-card:hover .job-card__dismiss-button {
+	display: block;
+}
+
+.job-card__dismiss-icon {
+	color: rgba(0, 0, 0, 0.55);
+}
+
+.job-card__dismiss-icon:hover {
+	color: rgba(0, 0, 0, 0.85);
+}
+
+.job-card {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.job-card--carousel-item.job-card {
+	width: 252px;
+	-webkit-flex: 1 0 auto;
+	-ms-flex: 1 0 auto;
+	flex: 1 0 auto;
+	margin-top: 1px;
+}
+
+.job-card__link-wrapper {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	text-decoration: none;
+	-webkit-flex: 1 0 auto;
+	-ms-flex: 1 0 auto;
+	flex: 1 0 auto;
+	max-width: 100%;
+}
+
+.job-card__link-wrapper:focus,
+.job-card__link-wrapper:hover {
+	text-decoration: none;
+}
+
+.job-card__logo-wrapper {
+	border: 4px solid transparent;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+.job-card__logo-image {
+	background-color: #0091ca;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.job-card__body,
+.job-card__header {
+	background: #fff;
+	border-radius: 2px;
+	transition: box-shadow 83ms;
+}
+
+.job-card__content-wrapper {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+}
+
+.jobs-search-upsell + .job-card .job-card__content-wrapper {
+	border-top: 0;
+}
+
+.job-card__title-line {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.job-card__title {
+	-webkit-flex: 1 1 0%;
+	-ms-flex: 1 1 0%;
+	flex: 1 1 0%;
+}
+
+.job-card__title .truncate-multiline--last-line {
+	width: 21.5rem !important;
+}
+
+.job-card__company-name {
+	font-family: Source Sans Pro, Helvetica, Arial, sans-serif,
+		Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic,
+		Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai,
+		Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system,
+		'.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
+	line-height: 20px;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.85);
+	font-size: 15px;
+}
+
+.job-card__listed-status,
+.job-card__location {
+	font-family: Source Sans Pro, Helvetica, Arial, sans-serif,
+		Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic,
+		Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai,
+		Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system,
+		'.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
+	line-height: 16px;
+	font-weight: 400;
+}
+
+.job-card__location {
+	color: rgba(0, 0, 0, 0.55);
+	font-size: 13px;
+}
+
+.job-card__job-flavors-container {
+	margin-top: 4px;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.job-card__footer {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.job-card__footer::before {
+	content: '';
+	width: 40px;
+	height: 0;
+	border-top: 1px solid #cdcfd2;
+	margin: 8px 0;
+	-webkit-order: -1;
+	-ms-flex-order: -1;
+	order: -1;
+}
+
+.job-card__footer::after {
+	content: '';
+	-webkit-flex-basis: 100%;
+	-ms-flex-preferred-size: 100%;
+	flex-basis: 100%;
+	-webkit-order: -1;
+	-ms-flex-order: -1;
+	order: -1;
+}
+
+.job-card__easy-apply,
+.job-flavors__flavor {
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.job-card__listed-status {
+	color: rgba(0, 0, 0, 0.55);
+	font-size: 13px;
+}
+
+.job-card__expiration-status,
+.job-card__new-tag {
+	font-weight: 600;
+	font-family: Source Sans Pro, Helvetica, Arial, sans-serif,
+		Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic,
+		Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai,
+		Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system,
+		'.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
+	line-height: 16px;
+	font-size: 13px;
+}
+
+.job-card__listed-status + .job-card__easy-apply::before {
+	content: '\00b7';
+	color: rgba(0, 0, 0, 0.55);
+	margin: 0 4px;
+}
+
+.job-card__applied-date {
+	width: 100%;
+}
+
+.job-card__new-tag {
+	color: #2f7b15;
+}
+
+.job-card__expiration-status {
+	color: rgba(0, 0, 0, 0.85);
+}
+
+.job-card__expiration-status--expired {
+	color: #ff2c33;
+}
+
+.job-card__easy-apply {
+	height: 1.6rem;
+}
+
+.job-card__easy-apply-icon {
+	max-width: 24px;
+	max-height: 24px;
+	padding: 0 4px 0 0;
+	-webkit-transform: scale(0.67) translate(-7px);
+	transform: scale(0.67) translate(-7px);
+}
+
+.job-card__easy-apply-text {
+	font-family: Source Sans Pro, Helvetica, Arial, sans-serif,
+		Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic,
+		Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai,
+		Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system,
+		'.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
+	line-height: 16px;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.55);
+	font-size: 13px;
+	-webkit-transform: translate(-6px);
+	transform: translate(-6px);
+}
+
+.job-card__header {
+	-webkit-flex: 0 0 auto;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto;
+	border-bottom: 1px solid #e6e9ec;
+}
+
+.job-card__body {
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+}
