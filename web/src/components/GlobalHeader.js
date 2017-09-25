@@ -40,7 +40,7 @@ class Header extends Component {
 										<a href="/">
 											<b className="icon icon--user" />
 											<span className="icon-text">
-												Hi Sally
+												Hi Sallie
 											</span>
 										</a>
 									</li>
