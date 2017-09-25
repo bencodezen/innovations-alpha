@@ -122,7 +122,7 @@ const styles = StyleSheet.create({
 		backgroundColor: '#fff'
 	},
 	h3: {
-		fontSize: 17,
+		fontSize: 20,
 		fontWeight: 'bold'
 	},
 	h3Container: {
