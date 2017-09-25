@@ -60,8 +60,8 @@ export default class ContractsScreen extends React.Component {
 						</Text>
 					</View>
 					<Subcontractor
-						company="Small Business Sally"
-						email="info@smallbusinesssally.com"
+						company="Small Business Sallie"
+						email="info@smallbusinesssallie.com"
 					/>
 					<Subcontractor
 						company="Medium Business Molly"
