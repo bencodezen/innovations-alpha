@@ -23,8 +23,8 @@ Ben describes how Thumb Up on partnership can affect what Contracts and Partners
     [] Clicks Plus Icon in panel to follow contract (leads into Big Business Brian)
 [] Ben as Big Business Brian checking contracts on his phone
     [] Contract detail screen showing Sally's interest in contract
-        [] App Header
-        [] {Home} Opportunities List
+        [x] App Header
+        [x] {Home} Opportunities List
         [] {Contracts} List of contracts currently under way
         [] {Search} Basic search page
         [] {Favorites} Saved list of opportunities
