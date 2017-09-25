@@ -29,13 +29,15 @@ export default class HomeScreen extends React.Component {
 					style={styles.container}
 					contentContainerStyle={styles.contentContainer}
 				>
-					<TouchableOpacity onPress={() => navigate('Search')}>
+					<View style={styles.h3Container}>
 						<Text style={styles.h3}>Recommended Opportunities</Text>
-					</TouchableOpacity>
+					</View>
 					<ContractPreview
 						awardDate="09/30/2017"
+						contractType="Firm Fixed Price"
 						daysAgo="4"
 						department="Department of Health and Human Services"
+						iconName="md-checkmark"
 						logo="https://www.hhs.gov/sites/default/files/hhs-emblem-black.gif"
 						navigate={navigate}
 						rating="90%"
@@ -120,8 +122,11 @@ const styles = StyleSheet.create({
 		backgroundColor: '#fff'
 	},
 	h3: {
-		fontSize: 20,
+		fontSize: 17,
 		fontWeight: 'bold'
+	},
+	h3Container: {
+		paddingBottom: 5
 	},
 	developmentModeText: {
 		marginBottom: 20,
