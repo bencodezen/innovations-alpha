@@ -147,7 +147,6 @@
 .simpleTabs > header ul li.active,
 .simpleTabs > header ul li:hover {
 	border-color: #ccc;
-	background: white;
 }
 
 .simpleTabs > header ul li.inactive,

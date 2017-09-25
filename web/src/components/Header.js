@@ -18,11 +18,6 @@ class Header extends Component {
 						</li>
 						<li className="sub-header__item">
 							<a className="button--standard button--denim-blue">
-								<b className="fa fa-user" /> Profile
-							</a>
-						</li>
-						<li className="sub-header__item">
-							<a className="button--standard button--denim-blue">
 								<b className="fa fa-bell" /> Alerts
 							</a>
 						</li>
