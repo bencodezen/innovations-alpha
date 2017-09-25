@@ -6,11 +6,11 @@
 }
 
 .pro-news:first-child {
-	padding-top: 36px;
+	padding-top: 24px;
 }
 
 .pro-news:last-child {
-	padding-bottom: 36px;
+	padding-bottom: 24px;
 	border-bottom: 0;
 }
 
@@ -21,13 +21,16 @@
 
 .pro-news__title {
 	margin-bottom: 4px;
+	font-size: 0.9rem;
 }
 
 .pro-news__author {
 	margin-bottom: 10px;
 	font-style: italic;
+	font-size: 0.9rem;
 }
 
 .pro-news__tease {
 	line-height: 1.2;
+	font-size: 0.95rem;
 }

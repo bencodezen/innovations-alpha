@@ -19,6 +19,11 @@
 	margin-bottom: 3.5rem;
 }
 
+.jobs-box.no-shadow {
+	box-shadow: 0 0 0 0;
+	border: 1px solid #e8e8e8;
+}
+
 .jobs-box--fadein {
 	-webkit-animation: fade-in 834ms 1;
 	animation: fade-in 834ms 1;
