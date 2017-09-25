@@ -70,20 +70,20 @@ export default TabNavigator(
 						name={iconName}
 						size={28}
 						style={{ marginBottom: -3 }}
-						color={
-							focused ? (
-								Colors.tabIconSelected
-							) : (
-								Colors.tabIconDefault
-							)
-						}
+						color={focused ? '#e5e5e5' : Colors.tabIconDefault}
 					/>
 				)
 			}
 		}),
 		tabBarComponent: TabBarBottom,
 		tabBarPosition: 'bottom',
-		animationEnabled: false,
-		swipeEnabled: false
+		animationEnabled: true,
+		swipeEnabled: true,
+		tabBarOptions: {
+			activeTintColor: '#e5e5e5',
+			style: {
+				backgroundColor: '#13151F'
+			}
+		}
 	}
 )
