@@ -14,10 +14,9 @@
 	background-color: #fff;
 	background-clip: padding-box;
 	border-radius: 2px;
-	margin-bottom: 8px;
 	padding: 12px;
 	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 3px rgba(0, 0, 0, 0.2);
-	margin-bottom: 16px;
+	margin-bottom: 3.5rem;
 }
 
 .jobs-box--fadein {

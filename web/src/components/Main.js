@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import RecentResults from './RecentSearches'
 import SearchResults from './SearchResults'
 import Partnerships from './Partnerships'
+import ProNews from './ProNews'
 
 class Main extends Component {
 	render() {
@@ -15,6 +16,7 @@ class Main extends Component {
 						<RecentResults />
 						<h3 className="fz7">Partnerships</h3>
 						<Partnerships />
+						<ProNews />
 					</div>
 				</div>
 			</main>
