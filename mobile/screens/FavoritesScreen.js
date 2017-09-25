@@ -27,7 +27,7 @@ export default class HomeScreen extends React.Component {
 					style={styles.container}
 					contentContainerStyle={styles.contentContainer}
 				>
-					<Text style={styles.h3}>Recommended Opportunities</Text>
+					<Text style={styles.h3}>Favorites</Text>
 					<ContractPreview
 						awardDate="09/30/2017"
 						daysAgo="4"

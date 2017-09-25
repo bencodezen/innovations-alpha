@@ -20,19 +20,24 @@ export default class HomeScreen extends React.Component {
 	}
 
 	render() {
+		const { navigate } = this.props.navigation
+
 		return (
 			<View style={styles.container}>
-				<Header />
+				<Header navigate={navigate} />
 				<ScrollView
 					style={styles.container}
 					contentContainerStyle={styles.contentContainer}
 				>
-					<Text style={styles.h3}>Recommended Opportunities</Text>
+					<TouchableOpacity onPress={() => navigate('Search')}>
+						<Text style={styles.h3}>Recommended Opportunities</Text>
+					</TouchableOpacity>
 					<ContractPreview
 						awardDate="09/30/2017"
 						daysAgo="4"
 						department="Department of Health and Human Services"
 						logo="https://www.hhs.gov/sites/default/files/hhs-emblem-black.gif"
+						navigate={navigate}
 						rating="90%"
 						title="Community Development Software Solution"
 						value="$1,500,000"
