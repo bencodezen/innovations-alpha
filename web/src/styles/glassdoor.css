@@ -575,7 +575,6 @@ header#TopNav .search-bar .context-picker {
 	cursor: pointer;
 	position: relative;
 	height: 100%;
-	margin-right: 16px;
 	outline: none;
 }
 
@@ -737,6 +736,7 @@ header#TopNav .search-bar ul.search-suggestion {
 		outline: none;
 		margin: 0;
 		padding: 0 16px 0 52px;
+		background-color: #e5e5e5;
 	}
 	header#TopNav .search-bar form input:focus {
 		outline: none;
